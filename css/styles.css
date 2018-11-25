@@ -1,3 +1,4 @@
+html,
 body {
     background: url('../img/bg.jpg') center center no-repeat;
     height: 100%;
@@ -57,4 +58,44 @@ body {
 
 #icons .instagram:hover {
     color: #517fa6;
+}
+
+#signup {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#signup .form-inline {
+    display: block;
+}
+
+#signup .btn {
+    background-color: rgba(161, 186, 226, 0.5);
+    color: white;
+}
+
+#signup .btn:hover {
+    background-color: rgba(37, 165, 82, 1);
+}
+
+@media(max-width: 768px) {
+    #logo img {
+        width: 50%;
+    }
+    #counter .countdownContainer {
+        font-size: 1.4em;
+    }
+    #icons .fab {
+        margin: 10px 0 0;
+        font-size: 2em;
+    }
+    #signup .btn {
+        background-color: rgba(37, 165, 82, 1);
+    }
+}
+
+@media(min-width: 321px) and (max-width: 568px) {
+    #logo img {
+        width: 30%;
+    }
 }
