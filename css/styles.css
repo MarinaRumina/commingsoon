@@ -1,0 +1,60 @@
+body {
+    background: url('../img/bg.jpg') center center no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+
+#logo img {
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#intro p {
+    color: white;
+    text-align: center;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 1.9em;
+}
+
+#counter .countdownContainer {
+    text-align: center;
+    color: white;
+    font-family: 'Just Me Again Down Here', cursive;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    margin: -15px 0 0;
+    /* font-weight: bold; */
+}
+
+#icons {
+    text-align: center;
+}
+
+#icons .fab {
+    color: white;
+    margin: 5px 15px;
+    position: relative;
+    text-decoration: none;
+    bottom: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+#icons .fab:hover {
+    bottom: 5px;
+}
+
+#icons .twitter:hover {
+    color: #6cadde;
+}
+
+#icons .facebook:hover {
+    color: #3b5998;
+}
+
+#icons .google-plus:hover {
+    color: #ea4335;
+}
+
+#icons .instagram:hover {
+    color: #517fa6;
+}
